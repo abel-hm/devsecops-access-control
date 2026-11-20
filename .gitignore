@@ -1,0 +1,11 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# Dependencies and generated output
+node_modules/
+coverage/
+.nyc_output/
+*.log
+.DS_Store
