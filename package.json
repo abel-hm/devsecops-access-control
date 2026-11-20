@@ -9,7 +9,7 @@
     "test": "jest --runInBand",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage --runInBand",
-    "prove:policy-break": "bash scripts/prove-branch-policy.sh"
+    "prove:policy-break": "node scripts/prove-branch-policy.js"
   },
   "engines": {
     "node": ">=20"
